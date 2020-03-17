@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" rel="stylesheet">
+<head>
+<!-- meta charset??-->
+<title> Practice Website</title>
+</head>
+<body>
+<header>
+<div class="tab movement">
+	<button class="tablink" onclick="openPage (Home)">Home</button>
+	<button class="tablink" onclick="openPage(Contact)">Contact</button>
+	<button class="tablink" onclick="openPage (About)">About</button>
+	<button class="tablink" onclick="openPage (Gallery)"> Gallery</button>
+</div>
+<!-- div groups content, a section groups related content ie chapters in a book
+and an article groups independent, self contained content ie the book -->
+<!-- Need JS to function these tabs -->
+<div id="home" class="tabcontent">
+</div>
+
+<ol class="name"><I> Ashton Janelle Grayson </i> </ol>
+<img src="image/logo1.jpg" alt="mylogo">
+<!--To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+<a href="#contacts-header">Contacts</a>
+...
+<h2 id="contacts-header">Contacts</h2>  -->
+
+<div class="movement">
+	<a href="home.html"> Home </a>
+	<a href="about.html"> About </a>
+	<a href="contact.html"> Contact </a>
+	<a href="gallery.html"> Gallery</a>
+</div>
+<!-- hr tag think this should be done using css -->
+<!-- look at how to position links to the right -->
+</header>
+<div></div>
+<id></id>
+
+<!-- look at theroy of nav (embeded landmark feature for easy screen reader navigation., id, aside tags -->
+
+<img src="image/laptop.jpg" alt="picture of laptop and coffee cup" class="background-image">
+</div>
+</body>
+<footer> 
+</footer>
+</html>
